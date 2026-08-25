@@ -10,3 +10,10 @@ test("captures the responsive control room", async ({ page }, testInfo) => {
     fullPage: true,
   });
 });
+
+test("captures the agent evaluation workbench", async ({ page }, testInfo) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: "AI Lab" }).click();
+  await expect(page.getByRole("heading", { name: "Trust is a test suite." })).toBeVisible();
+  await page.screenshot({ path: `docs/screenshots/ai-lab-${testInfo.project.name}.png`, fullPage: true });
+});
