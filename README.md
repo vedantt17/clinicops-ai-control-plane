@@ -1,5 +1,9 @@
 # ClinicOps AI Control Plane
 
+[![quality-gates](https://github.com/vedantt17/clinicops-ai-control-plane/actions/workflows/ci.yml/badge.svg)](https://github.com/vedantt17/clinicops-ai-control-plane/actions/workflows/ci.yml)
+
+**Live application:** [clinicops-ai-control-plane.vercel.app](https://clinicops-ai-control-plane.vercel.app)
+
 A production-minded, public simulation of the AI and automation layer behind healthcare back-office operations. It shows how an operator can prioritize workflows, ingest FHIR-shaped data, recover from upstream failures, route uncertainty to people, monitor reliability, compare tooling approaches, and document change safely.
 
 > **Data boundary:** every record and metric is synthetic. The application contains no PHI, PII, customer data, or realized business impact.
