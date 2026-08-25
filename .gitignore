@@ -1,0 +1,14 @@
+node_modules/
+.npm-cache/
+.next/
+out/
+coverage/
+playwright-report/
+test-results/
+.vercel/
+.env*
+!.env.example
+*.log
+.DS_Store
+
+.vercel
